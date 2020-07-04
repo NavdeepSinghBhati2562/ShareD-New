@@ -5,15 +5,18 @@
     <!-- Launcher related end -->
 
     <color name="colorControlNormal">#222</color>
-    <color name="colorError">#afb42b</color>
+    <color name="colorError">#DF7B56</color>
     <color name="colorOnPrimary">@color/colorControlNormal</color>
     <color name="colorOnSecondary">@color/colorControlNormal</color>
-    <color name="colorPrimary">#ffffff</color>
+    <!--    Header and Footer Color-->
+    <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#ccc</color>
     <color name="colorPrimaryDark23">#ffffffff</color>
-    <color name="colorSecondary">#66bb6a</color>
+    <color name="colorSecondary">#4796D3</color>
+    <!--  Transfer list Color  -->
     <color name="colorSurface">#fefefe</color>
-    <color name="windowBackground">#ffffff</color>
+    <!--    background-->
+    <color name="windowBackground">#FFFFFF</color>
     <!-- local coloring-->
     <color name="colorDonation">#f44336</color>
     <color name="colorDivider">#eeeeee</color>
@@ -34,7 +37,7 @@
     <color name="dark_colorOnSecondary">@color/dark_colorControlNormal</color>
     <color name="dark_colorPrimary">#1E1E1E</color>
     <color name="dark_colorPrimaryDark">@color/dark_colorPrimary</color>
-    <color name="dark_colorSecondary">#66bb6a</color>
+    <color name="dark_colorSecondary">#2277B8</color>
 
     <color name="dark_colorSurface">#2E2E2E</color>
     <color name="dark_windowBackground">@color/dark_colorPrimary</color>

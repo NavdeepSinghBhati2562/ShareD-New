@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50sp"
+        >
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            app:lottie_rawRes="@raw/friend"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_share_files_with_share_d"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_make_sharing_easy_with_share_d"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        >
+<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+    android:layout_width="match_parent"
+    android:layout_height="60sp"
+    android:text="SEND"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:fontFamily="@font/ubuntu"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:id="@+id/sendBtn"
+
+
+    />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="RECEIVE"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/ubuntu"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/receiveBtn"
+
+            />
+      </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

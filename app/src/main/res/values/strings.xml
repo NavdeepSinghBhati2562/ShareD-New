@@ -7,7 +7,7 @@
     text_ : any kind of text that doesn't belong to the prefixes above
     mode_ : these are not actual text strings. They illustrate more than one text items together and possibly are not translatable
 --><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="text_appName" translatable="false">TrebleShot</string>
+    <string name="text_appName" translatable="false">Share D</string>
     <string name="text_navigationDrawerOpen">Open navigation drawer</string>n
     <string name="text_navigationDrawerClose">Close navigation drawer</string>
     <string name="text_preferences">Preferences</string>
@@ -46,11 +46,11 @@
     <string name="butn_cancel">Cancel</string>
     <string name="butn_refresh">Refresh</string>
     <string name="butn_shareTrebleshot">Share this app</string>
-    <string name="text_about">About</string>
+    <string name="text_about">About Us</string>
     <string name="butn_close">Close</string>
     <string name="text_deviceModelInfo">Device name</string>
     <string name="butn_clearQueue">Clear the queue</string>
-    <string name="butn_shareWithTrebleshot">Share with TrebleShot</string>
+    <string name="butn_shareWithTrebleshot">Share with Share D</string>
     <string name="mesg_somethingWentWrong">Something went wrong</string>
     <string name="text_findDevicesHint">No familiar devices</string>
     <string name="text_autoScanDevices">Scan devices automatically</string>
@@ -88,7 +88,7 @@
     <string name="butn_receive">Receive</string>
     <string name="text_receive" translatable="false">@string/butn_receive</string>
     <string name="butn_block">Block</string>
-    <string name="text_aboutSummary">This software is developed by the Genonbeta Libre Software Org</string>
+    <string name="text_aboutSummary">This software is developed by the Navdeep Singh Bhati</string>
     <string name="butn_appLaunch">Launch</string>
     <string name="ques_launchApplication">Do you want to launch this app?</string>
     <string name="mesg_launchApplicationError">This app cannot be launched</string>
@@ -137,7 +137,7 @@
     <string name="text_createFolder">Create folder</string>
     <string name="mesg_fileAlreadyExists">File already exists</string>
     <string name="mesg_folderCreateError">Folder could not be created</string>
-    <string name="text_requestPermissionStorageSummary">This permission allows TrebleShot to read and write to your device\'s storage for receiving and sharing files.</string>
+    <string name="text_requestPermissionStorageSummary">This permission allows Share D to read and write to your device\'s storage for receiving and sharing files.</string>
     <string name="butn_settings">Settings</string>
     <string name="butn_selectThis">Select this</string>
     <string name="butn_newFile">New file</string>
@@ -154,7 +154,7 @@
     <string name="text_fileStatus">File status</string>
     <string name="butn_resume">Resume</string>
     <string name="text_transactionDetails">Details</string>
-    <string name="text_fileExplorer">File explorer</string>
+    <string name="text_fileExplorer">File Manager</string>
     <string name="butn_createFolder">Create folder</string>
     <string name="text_chooseFolder">Choose folder</string>
     <string name="text_chooseFile">Choose file</string>
@@ -179,14 +179,14 @@
     <string name="text_interfaceUnknown">Unknown connection</string>
     <string name="text_shareTextShort">Text</string>
     <string name="butn_connectionList">Connections</string>
-    <string name="text_automaticNetworkConnectionFailed">Could not connect the device. Its address may have changed. Try reconnecting to the network while TrebleShot is open.</string>
+    <string name="text_automaticNetworkConnectionFailed">Could not connect the device. Its address may have changed. Try reconnecting to the network while Share D is open.</string>
     <string name="text_automaticNetworkConnectionOngoing">Choosing the best connection</string>
     <string name="butn_retryReceiving">Retry receiving</string>
     <string name="butn_ask">Ask</string>
     <string name="text_permissionRequest">Permission request</string>
     <string name="text_requestPermissionStorage">Storage permission</string>
     <string name="text_requestPermissionReadPhoneState">Permission to read phone state</string>
-    <string name="text_requestPermissionReadPhoneStateSummary">TrebleShot needs to access your device\'s serial number to create a long-term identity number, helping other devices recognize you</string>
+    <string name="text_requestPermissionReadPhoneStateSummary">Share D needs to access your device\'s serial number to create a long-term identity number, helping other devices recognize you</string>
     <string name="text_mediaDirectory">Media directory</string>
     <string name="text_emulatedMediaDirectory">Emulated (%s)</string>
     <string name="mesg_notEnoughSpace">Not enough space</string>
@@ -195,8 +195,8 @@
     <string name="text_usedConnection">Used connection</string>
     <string name="text_flagRemoved">Removed</string>
     <string name="butn_copyToClipboard">Copy to clipboard</string>
-    <string name="text_communicationServiceRunning">TrebleShot can share files now</string>
-    <string name="text_communicationServiceStop">Tap to end session</string>
+    <string name="text_communicationServiceRunning">Share files with Share D</string>
+    <string name="text_communicationServiceStop">Tap to stop</string>
     <string name="text_remainingTime">ETA %s</string>
     <string name="butn_showFiles">Show files</string>
     <string name="butn_trustZoneDevice">Set as TrustZone device</string>
@@ -213,23 +213,23 @@
     <string name="mesg_textShareLimit">Only one text can be shared at a time</string>
     <string name="text_timeJustNow">Just now</string>
     <string name="mesg_providerNotAllowedError">The default folder is not accessible to other apps</string>
-    <string name="mesg_errorHotspotPermission">TrebleShot needs permission to set up a hotspot</string>
-    <string name="text_trebleshotHotspot">TrebleShot hotspot</string>
+    <string name="mesg_errorHotspotPermission">Share D needs permission to set up a hotspot</string>
+    <string name="text_trebleshotHotspot">Share D hotspot</string>
     <string name="butn_connect">Connect</string>
     <string name="butn_disconnect">Disconnect</string>
-    <string name="text_trebleshotHotspotDescription">You can send files directly via this open network created by a nearby TrebleShot device.</string>
-    <string name="mesg_connectingToSelfHotspot">Connecting to the TrebleShot hotspot</string>
+    <string name="text_trebleshotHotspotDescription">You can send files directly via this open network created by a nearby Share D device.</string>
+    <string name="mesg_connectingToSelfHotspot">Connecting to the Share D hotspot</string>
     <string name="mesg_warningHotspotMobileActive">Connected devices may use your cellular data. You may want to turn it off.</string>
     <string name="butn_skip">Skip</string>
-    <string name="mesg_scanningSelfHotspot">Searching for TrebleShot hotspot</string>
-    <string name="mesg_suggestSelfHotspot">You can enable Wi-Fi to search for a TrebleShot hotspot</string>
+    <string name="mesg_scanningSelfHotspot">Searching for Share D hotspot</string>
+    <string name="mesg_suggestSelfHotspot">You can enable Wi-Fi to search for a Share D hotspot</string>
     <string name="butn_enable">Enable</string>
-    <string name="mesg_locationPermissionRequiredSelfHotspot">Allow TrebleShot to search and create hotspot</string>
+    <string name="mesg_locationPermissionRequiredSelfHotspot">Allow Share D to search and create hotspot</string>
     <string name="butn_locationSettings">Location</string>
     <string name="mesg_locationDisabledSelfHotspot">Enable location service to see scan results and create hotspot</string>
-    <string name="mesg_scanningDevicesSelfHotspot">Looking for devices over a TrebleShot hotspot</string>
-    <string name="mesg_stoppingSelfHotspot">Stopping the TrebleShot hotspot</string>
-    <string name="mesg_startingSelfHotspot">Starting the TrebleShot hotspot</string>
+    <string name="mesg_scanningDevicesSelfHotspot">Looking for devices over a Share D hotspot</string>
+    <string name="mesg_stoppingSelfHotspot">Stopping the Share D hotspot</string>
+    <string name="mesg_startingSelfHotspot">Starting the Share D hotspot</string>
     <string name="butn_check">Check</string>
     <string name="butn_uncheck">Uncheck</string>
     <string name="text_previewAndEditList">Preview &amp; edit</string>
@@ -241,12 +241,12 @@
     <string name="mesg_ongoingUpdateDownload">Downloading the new version</string>
     <string name="butn_gotIt">Got it</string>
     <string name="mesg_helpFolderSelection">To select a folder, tap its icon</string>
-    <string name="mesg_hotspotCreatedInfo">Connect to \"%s\" in \"Wi-Fi settings\" or send files via \"%s\" inside TrebleShot</string>
+    <string name="mesg_hotspotCreatedInfo">Connect to \"%s\" in \"Wi-Fi settings\" or send files via \"%s\" inside Share D</string>
     <string name="butn_selectAll">Select all</string>
     <string name="butn_selectNone">Select none</string>
     <string name="butn_previewSelections">Preview selections</string>
     <string name="mesg_deviceConnectionError">Connection with \"%s\" over \"%s\" failed</string>
-    <string name="mesg_retryReceivingNotice">TrebleShot will retry receiving interrupted transfers</string>
+    <string name="mesg_retryReceivingNotice">Share D will retry receiving interrupted transfers</string>
     <string name="mesg_transferConnectionNotSetUpFix">Please choose the connection method first</string>
     <string name="butn_setUp">Set up</string>
     <string name="text_location">Location</string>
@@ -336,7 +336,7 @@
     <string name="text_network">Network</string>
     <string name="text_connect">Connect</string>
     <string name="butn_shareWithOtherApps">Share with other apps</string>
-    <string name="butn_startHotspot">Set up hotspot</string>
+    <string name="butn_startHotspot">Create hotspot</string>
     <string name="butn_stopHotspot">Stop hotspot</string>
     <string name="text_easyDiscoveryHelp">Scan this if both devices are on the same network</string>
     <string name="text_scanQRWifiRequired">To connect to devices, Wi-Fi should be turned on</string>
@@ -363,7 +363,7 @@
 \n%s</string>
     <string name="butn_changelog">Changelog</string>
     <string name="text_changelog">Changelog</string>
-    <string name="mesg_versionUpdatedChangelog">You have updated TrebleShot, would you like to see what\'s new\?</string>
+    <string name="mesg_versionUpdatedChangelog">You have updated Share D, would you like to see what\'s new\?</string>
     <string name="mesg_versionUpdatedChangelogRejected">You can always find \'Changelog\' in the \'About\' section</string>
     <string name="mesg_noInternetConnection">This requires internet connection</string>
     <string name="text_applyDarkTheme">Dark mode</string>
@@ -371,8 +371,8 @@
     <string name="butn_allow">Allow</string>
     <string name="butn_telegram_channel">Telegram channel</string>
     <string name="mode_middleDot" translatable="false"> · </string>
-    <string name="text_listEmptyTransfer">All transfers appear here</string>
-    <string name="text_transfers">Transfers</string>
+    <string name="text_listEmptyTransfer">Transfer List</string>
+    <string name="text_transfers">Share History</string>
     <string name="butn_connectionDetails">Connections details</string>
     <string name="butn_useKnownDevice">Use known devices</string>
     <string name="butn_scanQrCode">Scan QR Code</string>
@@ -426,11 +426,11 @@
     <string name="mesg_removed">Removed</string>
     <string name="mesg_added">Added</string>
     <string name="butn_change">Change</string>
-    <string name="text_welcome">Welcome</string>
+    <string name="text_welcome">Welcome to Share D</string>
     <string name="text_introMakeItYours">Make it yours</string>
     <string name="text_introSetUpPermissions">Set up permissions</string>
     <string name="text_introAllSet">All set!</string>
-    <string name="text_introSetUpProfile">Set up your profile</string>
+    <string name="text_introSetUpProfile">Create Your Profile</string>
     <string name="mesg_openFailure">Can not view \"%s\"</string>
     <string name="text_connectionTest">Connection test - %s</string>
     <string name="butn_connectionTest">Connection test</string>
@@ -454,14 +454,14 @@
     <string name="text_or">or</string>
     <string name="text_visitWebShareAddress">Visit this link with your browser</string>
     <string name="text_webShareInfo">Enable web-sharing for transfers individually and visit any web-link shown below with a device that is connected to the same network.</string>
-    <string name="text_dowloadTrebleshotAndroid">Download TrebleShot for Android</string>
+    <string name="text_dowloadTrebleshotAndroid">Download Share D for Android</string>
     <string name="text_listEmptyConnection">Networks you connect appear here</string>
     <string name="mesg_errorNotAnIpAddress">Not an IP Address
 \n(like 192.168.1.2)</string>
     <string name="ques_shareAsApkOrLink">Share as APK or link?</string>
     <string name="butn_asApk">As APK</string>
     <string name="butn_asLink">As a link</string>
-    <string name="text_linkTrebleshot">Share files with TrebleShot! Download here: %s</string>
+    <string name="text_linkTrebleshot">Share files with Share D! Download here: %s</string>
     <string name="butn_downloadAllAsZip">Download all as ZIP (single, uncompressed)</string>
     <string name="text_interfaceVPN">VPN Server</string>
     <string name="text_unrecognizedQrCode">Unrecognized code</string>
@@ -471,4 +471,19 @@
     <string name="mesg_qrScannerDefaultMode">Back to the default actions for QR codes</string>
     <string name="butn_showAsQrCode">Show as QR code</string>
     <string name="text_showAsQrCode" translatable="false">@string/butn_showAsQrCode</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_send_receive">Send Receive</string>
+    <string name="text_share_files_with_share_d">Share Files With Share D</string>
+    <string name="text_make_sharing_easy_with_share_d">Make Sharing Easy With Share D</string>
+    <string name="text_aboutUsSummary">We are a small team of visionary developers who aim to make an app that fulfills all your transfer needs within minimum time and with minimum efforts.  We vision to match up the smart needs of the world by making smart transfer connectivity across screens.  We are improving every day to cater you with the best of your needs.  We are always open to feedback and queries.</string>
+    <string name="text_helpSummary">1. Setup Your Profile, As it Will be Shown to Other User during Transfer.\n\n
+    2. Share D requires some permissions to function effectively and efficiently,So Allow Us all the Permission for the Proper Functioning of App.\n\n
+    3. SEND Button will Allows you to Send Files From your Device as of you will be the Host and have to Turn on your Hotspot.\n\n
+    4. RECEIVE Button will allow you to receive files Send by Scanning QR Code.\n\n
+    5. Share History will Show you all the Transfer performed by you.\n\n
+    6. File Manager Screen will Provide you Easy Access to your Device Files and make it easy to manage Files.\n\n
+    7. For Faster Transfer Switch Off Mobile Network.\n\n
+    - For Feedback and Queries.</string>
 </resources>

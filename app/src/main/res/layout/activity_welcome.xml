@@ -20,12 +20,12 @@
         android:paddingLeft="@dimen/short_content_width_padding"
         android:paddingRight="@dimen/short_content_width_padding">
 
-        <ProgressBar
-            android:id="@+id/activity_welcome_progress_bar"
-            style="@style/Widget.TrebleShot.ProgressBar.Horizontal.Oval"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center" />
+<!--        <ProgressBar-->
+<!--            android:id="@+id/activity_welcome_progress_bar"-->
+<!--            style="@style/Widget.TrebleShot.ProgressBar.Horizontal.Oval"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_gravity="center" />-->
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/activity_welcome_view_previous"
