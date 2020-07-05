@@ -25,7 +25,9 @@
         <activity
             android:name="com.nsbfilesharing.ShareD.activity.SplashActivity"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.TrebleShot.NoActionBar">
+            android:theme="@style/Theme.TrebleShot.NoActionBar"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

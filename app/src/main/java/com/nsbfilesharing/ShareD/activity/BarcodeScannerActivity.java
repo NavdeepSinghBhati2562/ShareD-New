@@ -66,4 +66,10 @@ public class BarcodeScannerActivity extends Activity
 
         return true;
     }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(BarcodeScannerActivity.this,HomeActivity.class));
+        finish();
+    }
 }

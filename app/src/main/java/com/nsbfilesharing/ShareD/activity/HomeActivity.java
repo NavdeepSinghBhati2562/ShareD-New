@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.LocaleList;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -60,7 +61,7 @@ public class HomeActivity
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
-
+        Log.d("TAG", "navdeepHomeonCreate: ");
         final Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -68,7 +69,7 @@ public class HomeActivity
         mActionMode = findViewById(R.id.content_powerful_action_mode);
         mNavigationView = findViewById(R.id.nav_view);
         mDrawerLayout = findViewById(R.id.drawer_layout);
-        //  mTrustZoneToggle = mNavigationView.getMenu().findItem(R.id.menu_activity_trustzone);
+         mTrustZoneToggle = mNavigationView.getMenu().findItem(R.id.menu_activity_trustzone);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.text_navigationDrawerOpen, R.string.text_navigationDrawerClose);
         mDrawerLayout.addDrawerListener(toggle);
         toggle.syncState();
@@ -137,7 +138,7 @@ public class HomeActivity
 //            if (donateItem != null)
 //                donateItem.setVisible(true);
 //        }
-        toggleTrustZone();
+       toggleTrustZone();
     }
 
     @Override
@@ -152,7 +153,7 @@ public class HomeActivity
     {
         super.onResume();
         registerReceiver(mReceiver = new ActivityReceiver(), mFilter);
-        requestTrustZoneStatus();
+       requestTrustZoneStatus();
     }
 
     @Override
@@ -258,9 +259,10 @@ public class HomeActivity
 //            builder.show();
 //        } else if (R.id.menu_activity_feedback == mChosenMenuItemId) {
 //            AppUtils.createFeedbackIntent(HomeActivity.this);
-//        } else if (R.id.menu_activity_trustzone == mChosenMenuItemId) {
-//            toggleTrustZone();
 //        }
+        else if (R.id.menu_activity_trustzone == mChosenMenuItemId) {
+            toggleTrustZone();
+        }
 
         mChosenMenuItemId = 0;
     }

@@ -1,6 +1,7 @@
 package com.nsbfilesharing.ShareD.activity;
 
 import android.content.BroadcastReceiver;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -305,7 +306,7 @@ public class ViewTransferActivity
         mToggleBrowserShare = menu.findItem(R.id.actions_transfer_toggle_browser_share);
 
         showMenus();
-
+        //toggleTask();
         return true;
     }
 
